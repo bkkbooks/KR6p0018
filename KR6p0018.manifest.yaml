@@ -1,0 +1,105 @@
+canonical_identifier: bkk:krp/KR6p0018/v1
+canonical_location: https://kanripo.org/bkk/KR6p0018/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿彌陀經略解圓中鈔
+  identifiers:
+    alt_id:
+    - X22n0423
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0423.xml
+    old_id: X22n0423
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0018_000.yaml, hash: 'sha256:92c651ddc8d4d952d6e38f3c5c9edb3aaf05546bf47461bb946d90b515b1c9d5'}
+  - {seq: 1, filename: KR6p0018_001.yaml, hash: 'sha256:f8f1819871d9984b84fd6d16fe4ef0a98f8ac7b9e1d2b5e8d324c2515c15c6e7'}
+  - {seq: 2, filename: KR6p0018_002.yaml, hash: 'sha256:8f488c319f271a9d8c1e7d93f05a2f1601f294c6a591e4e62772a6deb6ee1c30'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6p0018_000.markers.yaml, hash: 'sha256:98f60444517dbe28940029cedee967bc9e0b668a9897454371ad526358228825'}
+  - {seq: 1, role: markers, filename: assets/KR6p0018_001.markers.yaml, hash: 'sha256:9573061056378d8d1b71b0a7db68f19c9033ed05773e0515bc120cbbb8cdca3e'}
+  - {seq: 2, role: markers, filename: assets/KR6p0018_002.markers.yaml, hash: 'sha256:48b876bca49dbbea3cc2e5b602af500e7fd6cf0ecb209410d9ec718c282c88e3'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6p0018_X_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: No. 423-A 彌陀略解圓中鈔序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6p0018_X_000-mulu-2
+    span:
+    - front
+    - 564
+    - 564
+  label: 釋解序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6p0018_X_000-mulu-3
+    span:
+    - front
+    - 4382
+    - 4382
+  label: 釋解文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6p0018_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 21251
+  label: 彌陀略解圓中鈔卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6p0018_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 18959
+  label: 彌陀略解圓中鈔卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6p0018_X_002-mulu-1
+    span:
+    - body
+    - 18361
+    - 18361
+  label: 附刻
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6p0018_X_002-mulu-2
+    span:
+    - body
+    - 18723
+    - 18723
+  label: 刻圓中鈔䟦
+  type: mulu
+  level: 1
+hash: sha256:6be2b3d101bd23394e6f81693089cd86f54653beb4a24794365b3babed7e8539
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
