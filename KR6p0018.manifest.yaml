@@ -21,11 +21,11 @@ editions:
 - short: X
 assets:
   parts:
-  - {seq: 0, filename: KR6p0018_000.yaml, hash: 'sha256:ffcdc3a6f28a0cce6cbb47c1f930755b19b039c59588259bd01d63c36768e42e'}
+  - {seq: 0, filename: KR6p0018_000.yaml, hash: 'sha256:be079f27b80af383099a738d86b62089976462eeaec8ef8ecc293bca4112cd4a'}
   - {seq: 1, filename: KR6p0018_001.yaml, hash: 'sha256:e6459a6afd91e24e4f2399d65b2a3e46a20b43aadab85bc7464bc19f1edd94ad'}
   - {seq: 2, filename: KR6p0018_002.yaml, hash: 'sha256:4b4fc150d175f47ff2f32b60b9f0554b08a2f6317f61cc250003992f09919839'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6p0018_000.markers.yaml, hash: 'sha256:a6f8798346683b55abd7711b6d92e837cb7c6bee8aeae8a33af2bbcd5e2d0294'}
+  - {seq: 0, role: markers, filename: assets/KR6p0018_000.markers.yaml, hash: 'sha256:4cc2e09e39f2f1b8a38249140de91afa5b3385bc49000cb896520ab6af54e6bf'}
   - {seq: 1, role: markers, filename: assets/KR6p0018_001.markers.yaml, hash: 'sha256:03f257aa6c95de546ced1b0a0f5a727e151c9b8c1f9943d278f8d2383316da68'}
   - {seq: 2, role: markers, filename: assets/KR6p0018_002.markers.yaml, hash: 'sha256:11c2ee0456aa17f2dccd02be161b093fb0f31d63174474c4b552702f7816231e'}
 table_of_contents:
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6p0018_X_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: No. 423-A 彌陀略解圓中鈔序
@@ -43,7 +43,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6p0018_X_000-mulu-2
     span:
-    - front
+    - body
     - 564
     - 564
   label: 釋解序
@@ -53,7 +53,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6p0018_X_000-mulu-3
     span:
-    - front
+    - body
     - 4382
     - 4382
   label: 釋解文
@@ -99,7 +99,7 @@ table_of_contents:
   label: 刻圓中鈔䟦
   type: mulu
   level: 1
-hash: sha256:1f29cd4ec8bda3d9bcf202a17bf9685b4af07ab59098ca48b3e8b1c19df7173f
+hash: sha256:cbd7eaedf2c27053a750b9fc21f3a07afda42e8c6c748e7c0a08d4ab398b8346
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
